@@ -6,6 +6,11 @@ class Shoe
     @brand = brand
   end
 
+  def brand=(brand_name)
+    @brand = brand_name
+    
+  end
+
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
