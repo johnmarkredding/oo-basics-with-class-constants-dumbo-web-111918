@@ -5,7 +5,7 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    self.brand=brand 
+    self.brand = brand 
   end
 
   def brand=(brand_name)
