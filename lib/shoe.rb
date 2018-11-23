@@ -10,7 +10,7 @@ class Shoe
 
   def brand=(brand_name)
     @brand = brand_name
-    BRANDS << brand_name
+    if BRANDS << brand_name
   end
 
   def cobble
